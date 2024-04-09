@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #b5cfe2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ 
+}
+
+/* h1 {
+    background-color: rgb(252, 204, 115);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 3rem;
+
+} */
+
+.calculator {
+    height: 540px;
+    width: 300px;
+    box-shadow: 4px 4px 30px rgba(red, green, blue, alpha);
+    background-color: #f3f3f3;
+    margin-top: 2rem;
+    border-radius: 2rem;
+}
+
+form input {
+    width: 95%;
+    height: 150px;
+    margin-top: 1rem;
+    border: none;
+    border-color: #ffffff;
+    border-radius: 2rem;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: right;
+    pointer-events: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+button {
+    gap: 1rem;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px;
+    text-align: center;
+    box-shadow: 2px  2px 2px lightgray;
+    cursor: pointer;
+    overflow:hidden;
+    font-size: 1.5rem;
+    color: gray;
+    background-color: white;
+}
+
+.functional-btn {
+    background-color: #fedc56;
+    color: white;
+    font-size: 30px;
+}
+
+.btn2 {
+    background-color: rgb(94, 93, 93);
+    color: white;
+}
+
+.equal-btn {
+    background-color: #fedc56;
+    color: white;
+    font-size: 20px;
+}
+
+.clear-btn {
+    background-color: rgb(94, 93, 93);
+    color: white;
+}
+
+.btn3 {
+    width: 120px;
+    height: 60px;
+    border-radius: 2rem;
+}
